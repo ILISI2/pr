@@ -15,6 +15,7 @@ point::~point()
 
 bool point::operator<(const point &) const
 {
+    //br
 	return (x<y);
 }
 
