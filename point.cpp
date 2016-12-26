@@ -5,6 +5,7 @@
 point::point(int xx, int yy):x(xx),y(yy)
 {
 heeed
+world
 }
 
 
@@ -30,7 +31,7 @@ bool point::operator!=(const point & p) const
 
 bool point::operator==(const point & p) const
 {
-	
+
 	return !((*this)!=p);
 }
 
